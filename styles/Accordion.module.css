@@ -1,0 +1,51 @@
+.label {
+	align-items: center;
+	color: #aa1937;
+	display: flex;
+	font-size: 0.999rem;
+	font-weight: 700;
+	justify-content: space-between;
+	margin: 0;
+	min-height: 71px;
+	padding-top: 2%;
+	width: 100%;
+}
+.card {
+	margin: 0;
+}
+.card ul li {
+	font-size: 18px;
+}
+.accordionItem {
+	background-color: #eeee !important;
+	cursor: pointer;
+}
+.card-header {
+	background-color: transparent !important;
+	border: 0 !important;
+	margin-bottom: 0;
+	padding: 0.5rem 1rem;
+}
+.icon {
+	float: right;
+}
+.xyz::after {
+	transform: rotateY(90deg);
+}
+.chevron {
+	background-image: url(/svg/chevron_up.svg);
+	background-repeat: no-repeat;
+	display: block;
+	float: right;
+	height: 15px;
+	transform: rotate(180deg);
+	width: 27px;
+}
+.is-open {
+	transform: rotate(0deg);
+}
+@media (max-width: 767px) {
+	.card {
+		margin: 0;
+	}
+}
