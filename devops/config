@@ -1,0 +1,3 @@
+firebase_test_project=srset-salesb2cx
+live_branches=("main" "JIT")
+enable_preview_branches=true

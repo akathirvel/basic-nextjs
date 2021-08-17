@@ -1,0 +1,2 @@
+FROM node:14
+ENTRYPOINT ["/bin/bash", "-c", "npm ci && npm run build && npm run export"]

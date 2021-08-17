@@ -1,0 +1,12 @@
+{
+  "hosting": [{
+    "target": "BRANCH_PLACEHOLDER",
+    "cleanUrls": true,
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }]
+}
