@@ -24,7 +24,7 @@ export default function Page({ story, preview }) {
   );
 }
  
-export async function getStaticProps({ params, preview = false }) {
+export async function getStaticProps({ params, preview = true }) {
  
   let slug = params.slug ? params.slug.join("/") : "home";
  
@@ -50,7 +50,7 @@ export async function getStaticProps({ params, preview = false }) {
  
 export async function getStaticPaths() {
   let { data } = await Storyblok.get("cdn/links/",{
-   version:'draft'
+   version:'draft',starts_with:'uat'
   });
   //let {data} = await Storyblok.get("cdn/links")
    
