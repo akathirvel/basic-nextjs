@@ -50,7 +50,7 @@ export async function getStaticProps({ params, preview = true }) {
  
 export async function getStaticPaths() {
   let { data } = await Storyblok.get("cdn/links/",{
-   version:'draft'
+   version:'draft',starts_with:'uat'
   });
   //let {data} = await Storyblok.get("cdn/links")
    
