@@ -5,7 +5,7 @@ export default async function preview(req, res) {
     // Check the secret and next parameters
     // This secret should only be known to this API route and the CMS
     
-    if (req.query.secret !== 'ExqYy3g0d1nRE0uWBbJSHgtt') {
+    if (req.query.secret !== 'XMlpml1tPBvb36PIoa3N9wtt') {
       return res.status(401).json({ message: 'Invalid token' })
     }
   
