@@ -1,3 +1,3 @@
-firebase_test_project=srset-salesb2cx
-live_branches=("main" "JIT")
+firebase_test_project=nextjsproject-7b9be
+live_branches=("main" "JIT","UAT")
 enable_preview_branches=true
