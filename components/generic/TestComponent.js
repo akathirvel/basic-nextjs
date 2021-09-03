@@ -5,7 +5,7 @@ const TestComponent = ({blok}) =>{
     return (
         <form>
             <label>
-                {blok.label}
+                {blok.label} AnglesK
                 <input type="text" name="name" />
             </label>
             <input type="text" name="name2" />
