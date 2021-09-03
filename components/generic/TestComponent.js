@@ -8,6 +8,7 @@ const TestComponent = ({blok}) =>{
                 {blok.label}
                 <input type="text" name="name" />
             </label>
+            <input type="text" name="name2" />
             <input type="submit" value="Submit" />
         </form>
         
