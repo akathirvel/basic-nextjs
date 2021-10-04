@@ -11,6 +11,21 @@ export default function Page({ story, preview }) {
   //const enableBridge = true; // load the storyblok bridge everywhere
   const enableBridge = preview; // enable bridge only in prevew mode
   story = useStoryblok(story, enableBridge);
+ /*
+ let urllll = 'cdn/stories/'+story.full_slug
+  let sbParams = {
+    version: "published", // or published
+    
+  };
+    Storyblok.get(urllll, sbParams).then((data)=> {
+      console.log('inside story',data.data.story);
+      story = data.data.story
+      
+    }).catch((err) =>{
+      console.log(err)
+    });
+  
+ */
  
   return (
     <div className={styles.container}>
